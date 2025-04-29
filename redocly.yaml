@@ -1,0 +1,5 @@
+apis:
+  CatCatalog@v1:
+    root: ./CAPService/docs/CatCatalog.openapi3.json
+    x-openapi-ts:
+      output: ./HTML5Module/src/generated/CatCatalog.d.ts

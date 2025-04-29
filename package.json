@@ -1,0 +1,22 @@
+{
+  "name": "blog-capjs-catcatalog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretransferapidef": "npm --prefix ./CAPService run genopenapi",
+    "transferapidef": "npm run pretransferapidef && npx openapi-typescript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinjurran/blog-capjs-catcatalog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinjurran/blog-capjs-catcatalog/issues"
+  },
+  "homepage": "https://github.com/martinjurran/blog-capjs-catcatalog#readme",
+  "description": ""
+}
