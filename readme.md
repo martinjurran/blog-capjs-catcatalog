@@ -6,7 +6,7 @@ This guide outlines the steps to set up and start debugging the project, includi
 
 ## 📦 Project Setup
 
-\`\`\`bash
+```bash
 cd ./CAPService
 npm install
 
@@ -15,28 +15,28 @@ npm install
 
 cd ..
 npm run transferapidef
-\`\`\`
+```
 
 ---
 
 ## 🐞 Start Debugging
 
-\`\`\`bash
+```bash
 cd CAPService
 cds watch
 
 cd ../HTML5Module
 npm run dev
-\`\`\`
+```
 
 ---
 
 ## ✅ Notes
 
-\`\`\`bash
+```bash
 # Install CDS CLI globally if not already installed
 npm install -g @sap/cds
-\`\`\`
+```
 
 - Ensure Node.js and npm are properly installed.
 - The `transferapidef` script should be defined in your root `package.json`.
